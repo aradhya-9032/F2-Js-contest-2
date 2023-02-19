@@ -1,0 +1,89 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: black;
+    width: 1450px;
+    height: 700px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+*{
+    color: white;
+}
+h1{
+    margin-top: 2px;
+}
+b{
+    font-size: 20px;
+    margin-right: 30px;
+}
+input{
+    height: 25px;
+    width: 250px;
+    padding:5px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 100;
+}
+.issued{
+    margin-left: 19px;
+}
+.issue{
+    color: black;
+    height: 60px;
+    width: 393px;
+    position: absolute;
+    top:200px;
+    left:22px;
+    padding:20px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+.issue:hover{
+    cursor: pointer;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 1440px;
+    overflow: scroll;
+    position: absolute;
+    top:300px;
+    left:20px;
+
+}
+table tr{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+
+}
+
+table th,td{
+    padding:16px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.col{
+    border: 1px solid white;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+span{
+ text-align: center;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
